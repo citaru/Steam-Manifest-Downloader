@@ -38,7 +38,7 @@ pub enum Platform {
 impl Platform {
     fn asset_name(self) -> &'static str {
         match self {
-            Platform::Windows => "emu-win-release.7z",
+            Platform::Windows => "emu-win-release-vs22.7z",
             Platform::Linux => "emu-linux-release.tar.bz2",
         }
     }
